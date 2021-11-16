@@ -2,28 +2,112 @@
 /* jaune #F0B710 */
 
 body{
-    color: #646071
+    color: #8D8D8D;
+    margin: 0;
+}
+.recrutement{
+    text-align: center;
+    color: white;
+    margin: 0 300px 0 300px;
 }
 
-h1{
+h2, h4, h3{
     color: #F0B710;
-   
-
+}
+h4{
+    font-size: 20px;
 }
 h3{
    display: inline;
+   font-weight: normal;
 }
 hr{
-    color: #646071;
+    color: #8D8D8D; 
 }
-#img{
+.title-hr{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(141, 141, 141, 0.8),rgba(255,255,255),rgba(141, 141, 141, 0.8), rgba(255, 255, 255, 0));
+background-size: cover;
+background-blend-mode: luminosity;
+}
+.img{
 background-image: url(img/fond1intro.jpg);
-height: 200px;
-
+height: 300px;
 }
-#link{
-    background-color: white;
-    padding: 10px;
-    margin-top: 50px;
-
+.link{
+   background-color: white;
+padding-top:  10px;
+padding-bottom: 10px ;
 }
+
+main{
+    display: flex;
+}
+
+.container,.link-txt{
+    margin: 10px 200px 0 200px;
+}
+
+.left-main{
+    justify-content: left;
+    margin-right: 50px;
+}
+.right-main{
+    justify-content: right;
+    width: 3000px;
+}
+.emploi{
+    color:#96BDE8 ;
+}
+
+/*FORM*/
+input{
+    margin-top: 2px;
+    width: 400px;
+}
+.div-form{
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+}
+.taille-fichier, .cocher{
+    color: #F0B710;
+    font-weight: bold;
+}
+.cocher{
+    display: flex;
+}
+.envoyer{
+    background-color:#F0B710 ;
+    border: none;
+    color: white;
+    padding: 8px;
+}
+.button-right{
+    font-weight: bold;
+    background-color:#E1E1E1;
+    border: none;
+    color: black;
+    padding: 8px;
+}
+.button-linkedin, .button-facebook{
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+.button-linkedin{
+background-color: #0976B4;
+}
+.button-facebook{
+background-color: #3B5998;
+}
+button, input{
+    border-radius: 5%;
+}
+
