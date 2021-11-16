@@ -1,0 +1,29 @@
+/* gris #646071  */
+/* jaune #F0B710 */
+
+body{
+    color: #646071
+}
+
+h1{
+    color: #F0B710;
+   
+
+}
+h3{
+   display: inline;
+}
+hr{
+    color: #646071;
+}
+#img{
+background-image: url(img/fond1intro.jpg);
+height: 200px;
+
+}
+#link{
+    background-color: white;
+    padding: 10px;
+    margin-top: 50px;
+
+}
