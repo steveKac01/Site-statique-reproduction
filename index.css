@@ -5,7 +5,7 @@ body{
 a
 {
     text-decoration: none;
-}
+font-family: Arial, Helvetica, sans-serif;}
 
 .recrutement{
     text-align: center;
@@ -115,12 +115,16 @@ label{
 .cocher{
  
 }
+.double-arrow{
+    color: #D1D9E5;
+}
 .envoyer{
     background-color:#F0B710 ;
     border: none;
     color: white;
     padding: 10px 16px;
     margin: 0 0 20px 0;
+    cursor: pointer;
 }
 .button-right{
     font-weight: bold;
@@ -128,12 +132,14 @@ label{
     border: none;
     color: grey;
     padding: 10px 12px;
+    cursor: pointer;
 }
 .button-linkedin, .button-facebook{
     border: none;
     padding: 8px;
     color: white;
     font-size: 10px;
+    cursor: pointer;
 }
 .button-linkedin{
 background-color: #0976B4;
