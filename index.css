@@ -25,6 +25,8 @@ h2, h4, h3{
 }
 h2{
     font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: -65px;
 }
 h4,h6{
     font-size: 20px;
@@ -39,6 +41,7 @@ hr{
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0),rgba(141, 141, 141, 0.2), rgba(141, 141, 141, 0.7));
     border: 0;
     height: 1px;
+    margin-left: -65px;
 }
 .title-hr{
 margin-top: 10px;
@@ -85,7 +88,7 @@ main{
     margin-bottom: 10px;
 }
 .icone-input{
-    position: absolute;top: 8px;left: 385px;
+    position: absolute;top: 9px;left: 385px;
 }
 .txt-input{
     margin-top: 2px;
@@ -110,20 +113,21 @@ label{
     font-weight: bold;
 }
 .cocher{
-    display: flex;
+ 
 }
 .envoyer{
     background-color:#F0B710 ;
     border: none;
     color: white;
-    padding: 8px;
+    padding: 10px 16px;
+    margin: 0 0 20px 0;
 }
 .button-right{
     font-weight: bold;
     background-color:#E1E1E1;
     border: none;
-    color: black;
-    padding: 8px;
+    color: grey;
+    padding: 10px 12px;
 }
 .button-linkedin, .button-facebook{
     border: none;
@@ -138,6 +142,23 @@ background-color: #0976B4;
 background-color: #3B5998;
 }
 button, input{
-    border-radius: 5%;
+border-radius: 5%;
 }
 
+.captcha{
+    margin: 20px 0 20px 0;
+}
+.big-icone{
+    margin-left: -64px;
+   margin-right: 20px;
+    display: inline;
+}
+.fix-icone{
+    margin-left: -58px;
+   margin-right: 20px;
+    display: inline; 
+}
+.fix-checkbox{
+    margin-left: -19px;
+   
+}
