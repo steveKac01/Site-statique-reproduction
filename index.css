@@ -10,6 +10,11 @@ body{
     color: white;
     margin: 0 300px 0 300px;
 }
+h1{
+    font-size: 25px;
+    margin-top:  50px;
+    margin-bottom: 0;
+}
 
 h2, h4, h3{
     color: #F0B710;
@@ -25,8 +30,8 @@ hr{
     color: #8D8D8D; 
 }
 .title-hr{
-    margin: 0 auto;
-    margin-top: 40px;
+
+    margin-top: 10px;
     width: 100%;
     border: 0;
     height: 1px;
